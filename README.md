@@ -1,44 +1,82 @@
 # Fake News Detection using BERT
 
 ## Problem Statement
-Fake news spreads rapidly through digital platforms and social media, making it difficult for users to identify reliable information. The goal of this project is to build a machine learning model that can classify news articles as Fake or Real.
+Fake news spreads rapidly through digital platforms and social media, making it difficult for readers to identify reliable information. The objective of this project is to build a machine learning model that can automatically classify news articles as **Fake** or **Real** using Natural Language Processing techniques.
+
+---
+
+## Dataset
+The dataset used in this project contains approximately **20,000 news articles**. It includes several columns such as:
+
+- Title
+- Text
+- Date
+- Source
+- Author
+- Category
+- Label
+
+The **label column** indicates whether the news article is *Fake* or *Real*.  
+The dataset is relatively balanced with nearly equal samples from both classes.
+
+---
 
 ## Approach
-The project follows a Natural Language Processing pipeline:
-- Data exploration
-- Text preprocessing
-- Tokenization using BERT tokenizer
-- Train-test split
-- Model training
-- Model evaluation
-- Error analysis
-- Model improvement
-- Deployment
+The project follows a complete **Natural Language Processing pipeline**:
+
+1. Dataset exploration and understanding
+2. Text preprocessing and cleaning
+3. Tokenization using a transformer tokenizer
+4. Train-test data split
+5. Fine-tuning a pretrained transformer model
+6. Model evaluation using classification metrics
+7. Error analysis
+8. Model improvement
+9. Deployment using an interactive interface
+
+---
 
 ## Model Used
-The project uses BERT for sequence classification.  
-An experiment was also conducted using DistilBERT for comparison.
+The model used in this project is **BERT (Bidirectional Encoder Representations from Transformers)** for sequence classification. BERT is a powerful transformer-based language model capable of understanding contextual relationships in text data.
 
-## Metrics
-The model was evaluated using:
+An additional experiment was conducted using **DistilBERT**, a smaller and faster version of BERT, to compare performance and efficiency.
+
+---
+
+## Evaluation Metrics
+The model performance was evaluated using the following metrics:
+
 - Accuracy
 - Precision
 - Recall
 - F1-score
 - Confusion Matrix
 
-Final Accuracy: **50.7%**
+Final Model Accuracy:
+
+**50.7%**
+
+---
 
 ## Improvements
-DistilBERT was tested as an alternative model to compare performance and efficiency.
+To explore possible improvements, the project compared the performance of **BERT** and **DistilBERT** models. DistilBERT provides similar performance while being more computationally efficient due to its smaller architecture.
+
+---
 
 ## Key Learnings
-- Understanding NLP pipelines
-- Transformer models
-- Tokenization
-- Model evaluation
-- Error analysis
-- Model deployment
+Through this project, the following concepts were learned:
+
+- Natural Language Processing workflows
+- Transformer-based language models
+- Tokenization and text representation
+- Model fine-tuning techniques
+- Evaluation metrics for classification models
+- Error analysis in machine learning models
+- Deployment of ML models using simple interfaces
+
+---
 
 ## Deployment
-A simple interface was created where users can input a news headline and the model predicts whether it is Fake or Real.
+A simple interactive interface was created where users can enter a **news headline or text**, and the trained model predicts whether the news is **Fake** or **Real**.
+
+This demonstrates how a machine learning model can be integrated into a basic application for real-time predictions.
