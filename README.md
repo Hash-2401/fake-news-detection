@@ -52,6 +52,8 @@ The model performance was evaluated using the following metrics:
 - F1-score
 - Confusion Matrix
 
+<img width="801" height="627" alt="confusion_matrix" src="https://github.com/user-attachments/assets/80878b00-76d7-4237-8a39-3de78fefb284" />
+
 Final Model Accuracy:
 
 **50.7%**
@@ -80,3 +82,6 @@ Through this project, the following concepts were learned:
 A simple interactive interface was created where users can enter a **news headline or text**, and the trained model predicts whether the news is **Fake** or **Real**.
 
 This demonstrates how a machine learning model can be integrated into a basic application for real-time predictions.
+
+<img width="1917" height="1004" alt="deployment_demo" src="https://github.com/user-attachments/assets/4b7e9c40-53cd-4b8e-82eb-713a2105785f" />
+
