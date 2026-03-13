@@ -85,3 +85,6 @@ This demonstrates how a machine learning model can be integrated into a basic ap
 
 <img width="1917" height="1004" alt="deployment_demo" src="https://github.com/user-attachments/assets/4b7e9c40-53cd-4b8e-82eb-713a2105785f" />
 
+## Project Demo Video
+
+https://drive.google.com/file/d/1AepBOaE1TI6fCgXBaabxtr5x9RjVemzZ/view?usp=sharing
